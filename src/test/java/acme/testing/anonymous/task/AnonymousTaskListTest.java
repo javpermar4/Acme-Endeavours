@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmeEndeavoursTest;
 
-public class AnonymousTaskListTest extends AcmeWorkPlansTest{
+public class AnonymousTaskListTest extends AcmeEndeavoursTest{
 
 	/*
 	 * Lista las tasks y comprueba que la lista tiene los elementos correctos.

@@ -49,17 +49,17 @@ master.menu.administrator.shutdown = Shut down
 # master.menu.authenticated #########################################################
 
 
-master.menu.manager = Manager
-master.menu.manager.task.taskList = Tasks List
-master.menu.manager.task.my-task = My tasks
-master.menu.manager.task.taskCreate = Create Task
-master.menu.authenticated.manager.taskList = Tasks List
+master.menu.officer = Officer
+master.menu.officer.task.taskList = Tasks List
+master.menu.officer.task.my-task = My tasks
+master.menu.officer.task.taskCreate = Create Task
+master.menu.authenticated.officer.taskList = Tasks List
 master.menu.authenticated = Authenticated
 master.menu.authenticated.task.list = Tasks List
 
-# master.menu.manager ########################################################
+# master.menu.officer ########################################################
 
-master.menu.manager = Manager
+master.menu.officer = Officer
 
 # master.menu.consumer ##########################################################
 
@@ -74,8 +74,8 @@ master.menu.user-account.provider = Provider data
 master.menu.user-account.become-provider = Become a provider
 master.menu.user-account.consumer = Consumer data
 master.menu.user-account.become-consumer = Become a consumer
-master.menu.user-account.become-manager = Become a manager
-master.menu.user-account.manager = Manager data
+master.menu.user-account.become-officer = Become a officer
+master.menu.user-account.officer = Officer data
 
 # master.footer ###############################################################
 

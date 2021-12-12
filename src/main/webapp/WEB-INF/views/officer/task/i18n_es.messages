@@ -1,0 +1,51 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+officer.task.form.title.create = Crear nueva tarea.
+officer.task.form.title.update = Actualizar tarea.
+
+officer.task.form.label.title = Título	
+officer.task.form.label.initialMoment = Momento de Inicio
+officer.task.form.label.endMoment = Momento de Finalización
+officer.task.form.label.workload = Carga de Trabajo
+officer.task.form.label.description = Descripción
+officer.task.form.label.link = Enlace 
+officer.task.form.label.executionPeriod = Periodo de Ejecución
+officer.task.form.label.visibility = Visibilidad
+
+officer.task.list.label.title = Título
+officer.task.list.label.initialMoment = Momento de Inicio
+officer.task.list.label.endMoment = Momento de Finalización
+officer.task.list.label.executionPeriod = Periodo de Ejecución
+officer.task.list.label.workload = Carga de Trabajo
+officer.task.list.label.description = Descripción
+officer.task.list.label.visibility = Visibilidad
+
+officer.task.form.button.create = Crear
+officer.task.form.button.update = Actualizar
+officer.task.form.button.delete = Borrar
+officer.task.form.button.return = Return
+
+officer.task.list.title.list = Tareas
+officer.task.list.title.myTask = Mis tareas
+
+officer.task.form.error.workload = La carga de trabajo no puede exceder al periodo de ejecución
+officer.task.form.error.initialMoment = La tarea no puede comenzar en el pasado
+officer.task.form.error.endMoment = La tarea no puede acabar antes de comenzar
+officer.task.form.error.description = Comprueba el SPAM
+officer.task.form.error.title = Comprueba el SPAM
+officer.task.form.error.nullworkload = La carga de trabajo no puede ser nula
+officer.task.form.error.negativeworkload = La carga de trabajo debe ser mayor que 0
+officer.task.form.error.nullendMoment = El momento de finalización no puede ser nulo
+officer.task.form.error.nullinitialMoment = El momento de inicio no puede ser nulo
+officer.task.form.error.ended= No se puede modificar ni eliminar una tarea que ha finalizado
+officer.task.form.error.workplan= No puedes borrar una tarea que pertenezca a un workplan
+officer.task.form.error.biggerThanLimit = La workload debe ser más pequeña de 99.59
+officer.task.form.error.fractionError = Los minutos de la workload deben estar entre 0 y 59
