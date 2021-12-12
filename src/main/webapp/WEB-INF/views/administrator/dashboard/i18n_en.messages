@@ -26,29 +26,3 @@ administrator.dashboard.form.label.maxWorkload = Maximum workload (Hours)
 administrator.dashboard.form.label.minWorkload = Minimun workload (Hours)
 administrator.dashboard.form.label.averageNumberOfTaskWorkloads = Average of task workloads 
 administrator.dashboard.form.label.stdDevTaskWorkloads = Total deviation of workloads of tasks
-
-
-
-administrator.chart.form.title.show = Chart
-
-administrator.chart.form.title.general-indicators = General indicators
-administrator.chart.form.label.totalNumberWorkplans = Total number of Workplans
-administrator.chart.form.label.totalNumberWorkplansPublished = Total number of Workplans published
-administrator.chart.form.label.totalNumberWorkplansNonPublished = Total number of Workplans  non published
-
-administrator.dashboard.form.title.workplan = Workplans:
-administrator.dashboard.form.label.totalpublicworkplan = Total number of public workplans
-administrator.dashboard.form.label.totalprivateworkplan = Total number of private workplans
-administrator.dashboard.form.label.totalworkplan = Total numbers of public private workplans
-administrator.dashboard.form.label.average-execute-period-workplan = Average of workplans execution periods
-administrator.dashboard.form.label.totalFinishedworkplan = Total finished workplans
-administrator.dashboard.form.label.totalNonFinishedworkplan = Total non finished workplans
-administrator.dashboard.form.label.totalworkplanFinishedAndNotFinished = Total number of workplans finished and not finished
-administrator.dashboard.form.label.stdDevworkplanExecutionPeriods = Total deviation of execution period
-administrator.dashboard.form.label.minworkplanExecutionPeriod = Minimum execution period (Days)
-administrator.dashboard.form.label.maxworkplanExecutionPeriod = Maximum execution period (Days)
-administrator.dashboard.form.label.maxworkplanWorkload = Maximum workload (Hours)
-administrator.dashboard.form.label.minworkplanWorkload = Minimun workload (Hours)
-administrator.dashboard.form.label.averageNumberOfworkplanWorkloads = Average of workloads 
-administrator.dashboard.form.label.stdDevworkplanWorkloads = Total deviation of workloads
-administrator.dashboard.form.title.application-statuses = Chart of Workplans:

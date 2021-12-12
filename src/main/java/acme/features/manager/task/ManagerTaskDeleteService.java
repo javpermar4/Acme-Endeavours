@@ -1,6 +1,5 @@
 package acme.features.manager.task;
 
-import java.util.Collection;
 import java.util.Date;
 
 import org.springframework.beans.factory.annotation.Autowired;
@@ -8,7 +7,6 @@ import org.springframework.stereotype.Service;
 
 import acme.entities.roles.Manager;
 import acme.entities.tasks.Task;
-import acme.entities.workplan.Workplan;
 import acme.framework.components.Errors;
 import acme.framework.components.Model;
 import acme.framework.components.Request;
@@ -84,9 +82,6 @@ public void validate(final Request<Task> request, final Task entity, final Error
 		res=entity.getEndMoment().before(now);
 		errors.state(request, !res, "endMoment", "manager.task.form.error.ended");
 	}
-	
-	final Collection<Workplan> w=this.repository.findWorkplanByTask(entity.getId());
-	errors.state(request, w.isEmpty(), "visibility", "manager.task.form.error.workplan");
 	
 }
 

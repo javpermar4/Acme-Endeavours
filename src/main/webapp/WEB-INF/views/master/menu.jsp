@@ -30,7 +30,6 @@
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shoutList" action="/anonymous/shout/list"/>
 			<acme:menu-suboption code="master.menu.anonymous.taskList" action="/anonymous/task/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.workplanList" action="/anonymous/workplan/list"/>
 		</acme:menu-option>
 
 
@@ -74,10 +73,6 @@
 				action="/management/task/list-mine" />
 			<acme:menu-suboption code="master.menu.manager.task.taskCreate"
 				action="/management/task/create" />
-			<acme:menu-suboption code="master.menu.manager.workplan.create"
-				action="/management/workplan/create" />
-			<acme:menu-suboption code="master.menu.manager.workplan.list"
-				action="/management/workplan/list" />
 		</acme:menu-option>
 
 	</acme:menu-left>
