@@ -4,9 +4,9 @@ import org.junit.jupiter.api.Order;
 import org.junit.jupiter.params.ParameterizedTest;
 import org.junit.jupiter.params.provider.CsvFileSource;
 
-import acme.testing.AcmeWorkPlansTest;
+import acme.testing.AcmeEndeavoursTest;
 
-public class AdministratorSpamWordListAllTest extends AcmeWorkPlansTest{
+public class AdministratorSpamWordListAllTest extends AcmeEndeavoursTest{
 	
 	/*
 	 * Se autentificara como administrator, accede al menu desplegable de administrator y navegara hasta la opcion "Spam List", una vez dentro comprobara que esta en el lugar correcto

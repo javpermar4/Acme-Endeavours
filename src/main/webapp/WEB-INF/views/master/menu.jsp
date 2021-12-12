@@ -11,7 +11,7 @@
 --%>
 
 <%@page language="java"
-	import="acme.framework.helpers.PrincipalHelper,acme.entities.roles.Manager"%>
+	import="acme.framework.helpers.PrincipalHelper,acme.entities.roles.Officer"%>
 
 <%@taglib prefix="jstl" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib prefix="tiles" uri="http://tiles.apache.org/tags-tiles"%>
@@ -65,14 +65,14 @@
 				action="http://www.example.com/" />
 		</acme:menu-option>
 
-		<acme:menu-option code="master.menu.manager"
-			access="hasRole('Manager')">
-			<acme:menu-suboption code="master.menu.manager.task.taskList"
-				action="/management/task/list" />
-			<acme:menu-suboption code="master.menu.manager.task.my-task"
-				action="/management/task/list-mine" />
-			<acme:menu-suboption code="master.menu.manager.task.taskCreate"
-				action="/management/task/create" />
+		<acme:menu-option code="master.menu.officer"
+			access="hasRole('Officer')">
+			<acme:menu-suboption code="master.menu.officer.task.taskList"
+				action="/officer/task/list" />
+			<acme:menu-suboption code="master.menu.officer.task.my-task"
+				action="/officer/task/list-mine" />
+			<acme:menu-suboption code="master.menu.officer.task.taskCreate"
+				action="/officer/task/create" />
 		</acme:menu-option>
 
 	</acme:menu-left>
@@ -87,8 +87,8 @@
 			access="isAuthenticated()">
 			<acme:menu-suboption code="master.menu.user-account.general-data"
 				action="/authenticated/user-account/update" />
-			<acme:menu-suboption code="master.menu.user-account.become-manager"
-				action="/authenticated/management/create" access="!hasRole('Manager')" />
+			<acme:menu-suboption code="master.menu.user-account.become-officer"
+				action="/authenticated/officer/create" access="!hasRole('Officer')" />
 		</acme:menu-option>
 
 		<acme:menu-option code="master.menu.sign-out"
