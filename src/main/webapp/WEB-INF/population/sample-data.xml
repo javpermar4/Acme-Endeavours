@@ -159,10 +159,10 @@
 		<property name="info" value="http://xataka.com"></property>
 	</bean>
 
-	<!-- Tasks-->
+	<!-- Dutys-->
 	
 
-	<bean id="task01" class="acme.entities.tasks.Task">
+	<bean id="duty01" class="acme.entities.duties.Duty">
 		<property name="title" value="Holaaaaa"/>
 		<property name="initialMoment" value="2021/08/30 12:30"/>
 		<property name="endMoment" value="2021/09/25 12:00"/>
@@ -174,11 +174,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task02" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 2"/>
+	<bean id="duty02" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 2"/>
 		<property name="initialMoment" value="2021/02/05 12:30"/>
 		<property name="endMoment" value="2021/03/31 12:30"/>
-		<property name="description" value="Esta es la segunda Task"></property>
+		<property name="description" value="Esta es la segunda Duty"></property>
 		<property name="workload" value="28.3"></property>
 		<property name="executionPeriod" value="1296.0"></property>
 		<property name="visibility" value="PUBLIC"></property>
@@ -186,11 +186,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task03" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 3"/>
+	<bean id="duty03" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 3"/>
 		<property name="initialMoment" value="2021/08/30 12:30"/>
 		<property name="endMoment" value="2021/09/30 12:30"/>
-		<property name="description" value="Esta es la tercera Task"></property>
+		<property name="description" value="Esta es la tercera Duty"></property>
 		<property name="workload" value="23.0"></property>
 		<property name="executionPeriod" value="960.0"></property>
 		<property name="visibility" value="PUBLIC"></property>
@@ -198,8 +198,8 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task04" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 4"/>
+	<bean id="duty04" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 4"/>
 		<property name="initialMoment" value="2021/03/20 12:30"/>
 		<property name="endMoment" value="2021/04/30 12:30"/>
 		<property name="description" value="aaaaaaaaaaaa"></property>
@@ -210,8 +210,8 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task05" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 5"/>
+	<bean id="duty05" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 5"/>
 		<property name="initialMoment" value="2021/08/30 12:30"/>
 		<property name="endMoment" value="2021/09/30 12:30"/>
 		<property name="description" value="aaaaaaaaaaaa"></property>
@@ -222,8 +222,8 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task06" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 6"/>
+	<bean id="duty06" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 6"/>
 		<property name="initialMoment" value="2021/08/12 10:30"/>
 		<property name="endMoment" value="2021/09/21 10:30"/>
 		<property name="description" value="Creando mi 6 tarea :)"></property>
@@ -234,11 +234,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 
-	<bean id="task07" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 7"/>
+	<bean id="duty07" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 7"/>
 		<property name="initialMoment" value="2021/07/20 17:30"/>
 		<property name="endMoment" value="2021/10/15 17:30"/>
-		<property name="description" value="Realización de la task 7"></property>
+		<property name="description" value="Realización de la duty 7"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="624.0"></property>
 		<property name="visibility" value="PUBLIC"></property>
@@ -246,11 +246,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 
-	<bean id="task08" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 8"/>
+	<bean id="duty08" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 8"/>
 		<property name="initialMoment" value="2021/08/10 13:30"/>
 		<property name="endMoment" value="2021/09/25 13:30"/>
-		<property name="description" value="Task 8 realizada"></property>
+		<property name="description" value="Duty 8 realizada"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="1080.0"></property>
 		<property name="visibility" value="PUBLIC"></property>
@@ -258,8 +258,8 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 
-	<bean id="task09" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 9"/>
+	<bean id="duty09" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 9"/>
 		<property name="initialMoment" value="2021/08/10 15:30"/>
 		<property name="endMoment" value="2021/11/07 15:30"/>
 		<property name="description" value="Popular base de datos"></property>
@@ -270,11 +270,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 
-	<bean id="task10" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 10"/>
+	<bean id="duty10" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 10"/>
 		<property name="initialMoment" value="2021/04/19 10:30"/>
 		<property name="endMoment" value="2021/05/01 10:30"/>
-		<property name="description" value="Task 8 realizada"></property>
+		<property name="description" value="Duty 8 realizada"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="288.0"></property>
 		<property name="visibility" value="PRIVATE"></property>
@@ -282,11 +282,11 @@
 		<property name="officer" ref="officerOfficerEx"></property>
 	</bean>
 	
-	<bean id="task11" class="acme.entities.tasks.Task">
-		<property name="title" value="Task 11"/>
+	<bean id="duty11" class="acme.entities.duties.Duty">
+		<property name="title" value="Duty 11"/>
 		<property name="initialMoment" value="2021/07/10 15:30"/>
 		<property name="endMoment" value="2021/10/07 15:30"/>
-		<property name="description" value="Esta es la task 11"></property>
+		<property name="description" value="Esta es la duty 11"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="2136.0"></property>
 		<property name="visibility" value="PUBLIC"></property>

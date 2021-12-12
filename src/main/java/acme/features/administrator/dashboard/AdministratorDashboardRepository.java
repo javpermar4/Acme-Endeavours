@@ -21,46 +21,46 @@ import acme.framework.repositories.AbstractRepository;
 public interface AdministratorDashboardRepository extends AbstractRepository {
 	
 	//--------------------------------------TASK---------------------------------------------
-	@Query("select count(t) from Task t where t.visibility = 0")
-	Integer totalPublicTasks();
+	@Query("select count(d) from Duty d where d.visibility = 0")
+	Integer totalPublicDuties();
 	
-	@Query("select count(t) from Task t where t.visibility = 1")
-	Integer totalPrivateTasks();
+	@Query("select count(d) from Duty d where d.visibility = 1")
+	Integer totalPrivateDuties();
 	
-	@Query("select count(t) from Task t")
-	Integer totalNumberOfPublicPrivateTasks();
+	@Query("select count(d) from Duty d")
+	Integer totalNumberOfPublicPrivateDuties();
 	
-	@Query("select count(t) from Task t where t.endMoment < current_timestamp()")
-	Integer totalNonFinishedTasks();
+	@Query("select count(d) from Duty d where d.endMoment < current_timestamp()")
+	Integer totalNonFinishedDuties();
 	
-	@Query("select count(t) from Task t where t.endMoment > current_timestamp()")
-	Integer totalFinishedTasks();
+	@Query("select count(d) from Duty d where d.endMoment > current_timestamp()")
+	Integer totalFinishedDuties();
 	
-	@Query("select count(t) from Task t")
-	Double totalNumberOfFinishedNonFinishedTasks();
+	@Query("select count(d) from Duty d")
+	Double totalNumberOfFinishedNonFinishedDuties();
 	
-	@Query("select avg(DATEDIFF(t.endMoment, t.initialMoment)) from Task t")
-	Double averageNumberOfTaskExecutionPeriods();
+	@Query("select avg(DATEDIFF(d.endMoment, d.initialMoment)) from Duty d")
+	Double averageNumberOfDutyExecutionPeriods();
 	
-	@Query("select stddev(DATEDIFF(t.endMoment, t.initialMoment)) from Task t")
-	Double stdDevTaskExecutionPeriods();
+	@Query("select stddev(DATEDIFF(d.endMoment, d.initialMoment)) from Duty d")
+	Double stdDevDutyExecutionPeriods();
 	
-	@Query("select min(DATEDIFF(t.endMoment, t.initialMoment)) from Task t")
+	@Query("select min(DATEDIFF(d.endMoment, d.initialMoment)) from Duty d")
 	Integer minExecutionPeriod();
 
-	@Query("select max(DATEDIFF(t.endMoment, t.initialMoment)) from Task t")
+	@Query("select max(DATEDIFF(d.endMoment, d.initialMoment)) from Duty d")
 	Integer maxExecutionPeriod();
 	
-	@Query("select max(t.workload) from Task t")
+	@Query("select max(d.workload) from Duty d")
 	Double maxWorkload();
 	
-	@Query("select min(t.workload) from Task t")
+	@Query("select min(d.workload) from Duty d")
 	Double minWorkload();
 	
-	@Query("select avg(t.workload) from Task t")
-	Double averageNumberOfTaskWorkloads();
+	@Query("select avg(d.workload) from Duty d")
+	Double averageNumberOfDutyWorkloads();
 	
-	@Query("select stddev(t.workload) from Task t")
-	Double stdDevTaskWorkloads();
+	@Query("select stddev(d.workload) from Duty d")
+	Double stdDevDutyWorkloads();
 
 }

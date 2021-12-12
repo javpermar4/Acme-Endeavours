@@ -21,15 +21,15 @@
 	<acme:menu-left>
     	<acme:menu-option code="master.menu.authenticated"
 			access="isAuthenticated()">
-			<acme:menu-suboption code="master.menu.authenticated.task.list"
-				action="/authenticated/task/list" />
+			<acme:menu-suboption code="master.menu.authenticated.duty.list"
+				action="/authenticated/duty/list" />
       </acme:menu-option>
     
 		<acme:menu-option code="master.menu.anonymous" access="isAnonymous()">
 			<acme:menu-suboption code="master.menu.anonymous.favourite-link" action="http://www.example.com/"/>
 			<acme:menu-suboption code="master.menu.anonymous.shout" action="/anonymous/shout/create"/>
 			<acme:menu-suboption code="master.menu.anonymous.shoutList" action="/anonymous/shout/list"/>
-			<acme:menu-suboption code="master.menu.anonymous.taskList" action="/anonymous/task/list"/>
+			<acme:menu-suboption code="master.menu.anonymous.dutyList" action="/anonymous/duty/list"/>
 		</acme:menu-option>
 
 
@@ -67,12 +67,12 @@
 
 		<acme:menu-option code="master.menu.officer"
 			access="hasRole('Officer')">
-			<acme:menu-suboption code="master.menu.officer.task.taskList"
-				action="/officer/task/list" />
-			<acme:menu-suboption code="master.menu.officer.task.my-task"
-				action="/officer/task/list-mine" />
-			<acme:menu-suboption code="master.menu.officer.task.taskCreate"
-				action="/officer/task/create" />
+			<acme:menu-suboption code="master.menu.officer.duty.dutyList"
+				action="/officer/duty/list" />
+			<acme:menu-suboption code="master.menu.officer.duty.my-duty"
+				action="/officer/duty/list-mine" />
+			<acme:menu-suboption code="master.menu.officer.duty.dutyCreate"
+				action="/officer/duty/create" />
 		</acme:menu-option>
 
 	</acme:menu-left>

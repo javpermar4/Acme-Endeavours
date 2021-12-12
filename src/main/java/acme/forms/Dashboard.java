@@ -17,20 +17,20 @@ public class Dashboard implements Serializable {
 
 	// Attributes TASKS-------------------------------------------------------------
 
-	Integer						totalPublicTasks;
-	Integer						totalPrivateTasks;
-	Integer						totalNumberOfPublicPrivateTasks;
-	Integer						totalNonFinishedTasks;
-	Integer						totalFinishedTasks;
-	Double						totalNumberOfFinishedNonFinishedTasks;
-	Double						averageNumberOfTaskExecutionPeriods;
-	Double						stdDevTaskExecutionPeriods;
+	Integer						totalPublicDuties;
+	Integer						totalPrivateDuties;
+	Integer						totalNumberOfPublicPrivateDuties;
+	Integer						totalNonFinishedDuties;
+	Integer						totalFinishedDuties;
+	Double						totalNumberOfFinishedNonFinishedDuties;
+	Double						averageNumberOfDutyExecutionPeriods;
+	Double						stdDevDutyExecutionPeriods;
 	Integer						minExecutionPeriod;
 	Integer						maxExecutionPeriod;
 	Double 						maxWorkload;
 	Double 						minWorkload;
-	Double 						averageNumberOfTaskWorkloads;
-	Double 						stdDevTaskWorkloads;
+	Double 						averageNumberOfDutyWorkloads;
+	Double 						stdDevDutyWorkloads;
 	
 
 // Derived attributes -----------------------------------------------------

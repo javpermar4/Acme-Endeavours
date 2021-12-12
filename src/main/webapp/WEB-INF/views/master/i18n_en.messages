@@ -32,7 +32,7 @@ master.menu.anonymous = Anonymous
 master.menu.anonymous.favourite-link = Favourite link
 master.menu.anonymous.shout = Shout
 master.menu.anonymous.shoutList = Shout List
-master.menu.anonymous.taskList = Task List
+master.menu.anonymous.dutyList = Duty List
 
 # master.menu.administrator ###################################################
 
@@ -50,12 +50,12 @@ master.menu.administrator.shutdown = Shut down
 
 
 master.menu.officer = Officer
-master.menu.officer.task.taskList = Tasks List
-master.menu.officer.task.my-task = My tasks
-master.menu.officer.task.taskCreate = Create Task
-master.menu.authenticated.officer.taskList = Tasks List
+master.menu.officer.duty.dutyList = Duties List
+master.menu.officer.duty.my-duty = My duties
+master.menu.officer.duty.dutyCreate = Create Duty
+master.menu.authenticated.officer.dutyList = Duties List
 master.menu.authenticated = Authenticated
-master.menu.authenticated.task.list = Tasks List
+master.menu.authenticated.duty.list = Duties List
 
 # master.menu.officer ########################################################
 

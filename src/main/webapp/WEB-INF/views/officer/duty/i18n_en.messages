@@ -1,0 +1,51 @@
+# i18n_en.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+officer.duty.form.title.create = Create new duty.
+officer.duty.form.title.update = Update duty.
+
+officer.duty.form.label.title = Title	
+officer.duty.form.label.initialMoment = Initial Moment
+officer.duty.form.label.endMoment = End Moment
+officer.duty.form.label.workload = Workload
+officer.duty.form.label.description = Description
+officer.duty.form.label.link = Link
+officer.duty.form.label.executionPeriod = Execution Period
+officer.duty.form.label.visibility = Visibility
+
+officer.duty.list.label.title = Title
+officer.duty.list.label.initialMoment = Initial Moment
+officer.duty.list.label.endMoment = End Moment
+officer.duty.list.label.executionPeriod = Execution Period
+officer.duty.list.label.workload = Workload
+officer.duty.list.label.description = Description
+officer.duty.list.label.visibility = Visibility
+
+officer.duty.form.button.create = Create
+officer.duty.form.button.update = Update
+officer.duty.form.button.delete = Delete
+officer.duty.form.button.return = Return
+
+officer.duty.list.title = Duties
+officer.duty.list.title.myDuty = My duties
+
+officer.duty.form.error.workload = The workload cannot exceed the execution period
+officer.duty.form.error.initialMoment = The duty cannot start in the past
+officer.duty.form.error.endMoment = The duty cannot end before it begins
+officer.duty.form.error.description = Check SPAM
+officer.duty.form.error.title = Check SPAM
+officer.duty.form.error.nullworkload = Workload can't be null
+officer.duty.form.error.negativeworkload = Workload must be greater than 0
+officer.duty.form.error.nullendMoment = The end moment cannot be null
+officer.duty.form.error.nullinitialMoment = The initial moment cannot be null
+officer.duty.form.error.ended= Cannot delete duty ended
+officer.duty.form.error.workplan= You can't delete a duty that belongs to a workplan
+officer.duty.form.error.biggerThanLimit = The workload must be lower than 99.59
+officer.duty.form.error.fractionError = The minutes of workload must be between 0 and 59

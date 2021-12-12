@@ -45,10 +45,10 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		assert entity != null;
 		assert model != null;
 
-		request.unbind(entity, model, "totalPublicTasks","totalPrivateTasks" ,"totalNumberOfPublicPrivateTasks",
-			"averageNumberOfTaskExecutionPeriods", "stdDevTaskExecutionPeriods", "totalFinishedTasks","totalNonFinishedTasks",
-      "totalNumberOfFinishedNonFinishedTasks","minExecutionPeriod", "maxExecutionPeriod", "maxWorkload", "minWorkload", 
-      "averageNumberOfTaskWorkloads", "stdDevTaskWorkloads");
+		request.unbind(entity, model, "totalPublicDuties","totalPrivateDuties" ,"totalNumberOfPublicPrivateDuties",
+			"averageNumberOfDutyExecutionPeriods", "stdDevDutyExecutionPeriods", "totalFinishedDuties","totalNonFinishedDuties",
+      "totalNumberOfFinishedNonFinishedDuties","minExecutionPeriod", "maxExecutionPeriod", "maxWorkload", "minWorkload", 
+      "averageNumberOfDutyWorkloads", "stdDevDutyWorkloads");
 
 	}
 
@@ -59,52 +59,52 @@ public class AdministratorDashboardShowService implements AbstractShowService<Ad
 		Dashboard result;
 		
 		// -----------------------------TASK-------------------------------
-		final Integer	totalPublicTasks;
-		final Integer	totalPrivateTasks;
-		Integer totalNumberOfPublicPrivateTasks;
-		Double averageNumberOfTaskExecutionPeriods;
-		final Integer totalFinishedTasks;
-		final Integer totalNonFinishedTasks;
-		Double totalNumberOfFinishedNonFinishedTasks;
-		Double getStdDevTaskExecutionPeriods;
+		final Integer	totalPublicDuties;
+		final Integer	totalPrivateDuties;
+		Integer totalNumberOfPublicPrivateDuties;
+		Double averageNumberOfDutyExecutionPeriods;
+		final Integer totalFinishedDuties;
+		final Integer totalNonFinishedDuties;
+		Double totalNumberOfFinishedNonFinishedDuties;
+		Double getStdDevDutyExecutionPeriods;
 		Integer minExecutionPeriod;
 		Integer maxExecutionPeriod;
 		final Double  maxWorkload;
 		final Double  minWorkload;
-		final Double 	averageNumberOfTaskWorkloads;
-		final Double 	stdDevTaskWorkloads;
+		final Double 	averageNumberOfDutyWorkloads;
+		final Double 	stdDevDutyWorkloads;
 		
-		totalPublicTasks = this.repository.totalPublicTasks();
-		totalPrivateTasks = this.repository.totalPrivateTasks();
-		totalNumberOfPublicPrivateTasks = this.repository.totalNumberOfPublicPrivateTasks();
-		averageNumberOfTaskExecutionPeriods = this.repository.averageNumberOfTaskExecutionPeriods();
-		totalFinishedTasks = this.repository.totalFinishedTasks();
-		totalNonFinishedTasks = this.repository.totalNonFinishedTasks();
-		totalNumberOfFinishedNonFinishedTasks = this.repository.totalNumberOfFinishedNonFinishedTasks();
-		getStdDevTaskExecutionPeriods = this.repository.stdDevTaskExecutionPeriods();
+		totalPublicDuties = this.repository.totalPublicDuties();
+		totalPrivateDuties = this.repository.totalPrivateDuties();
+		totalNumberOfPublicPrivateDuties = this.repository.totalNumberOfPublicPrivateDuties();
+		averageNumberOfDutyExecutionPeriods = this.repository.averageNumberOfDutyExecutionPeriods();
+		totalFinishedDuties = this.repository.totalFinishedDuties();
+		totalNonFinishedDuties = this.repository.totalNonFinishedDuties();
+		totalNumberOfFinishedNonFinishedDuties = this.repository.totalNumberOfFinishedNonFinishedDuties();
+		getStdDevDutyExecutionPeriods = this.repository.stdDevDutyExecutionPeriods();
 		minExecutionPeriod = this.repository.minExecutionPeriod();
 		maxExecutionPeriod = this.repository.maxExecutionPeriod();
 		maxWorkload = this.repository.maxWorkload();
 		minWorkload = this.repository.minWorkload();
-		averageNumberOfTaskWorkloads = this.repository.averageNumberOfTaskWorkloads();
-		stdDevTaskWorkloads = this.repository.stdDevTaskWorkloads();
+		averageNumberOfDutyWorkloads = this.repository.averageNumberOfDutyWorkloads();
+		stdDevDutyWorkloads = this.repository.stdDevDutyWorkloads();
 
 		result = new Dashboard();
-		result.setTotalPublicTasks(totalPublicTasks);
-		result.setTotalPrivateTasks(totalPrivateTasks);
-		result.setTotalNumberOfPublicPrivateTasks(totalNumberOfPublicPrivateTasks);
-		result.setAverageNumberOfTaskExecutionPeriods(averageNumberOfTaskExecutionPeriods);
-		result.setTotalFinishedTasks(totalFinishedTasks);
-		result.setTotalNonFinishedTasks(totalNonFinishedTasks);
-		result.setTotalNumberOfFinishedNonFinishedTasks(totalNumberOfFinishedNonFinishedTasks);
-		result.setStdDevTaskExecutionPeriods(getStdDevTaskExecutionPeriods);
+		result.setTotalPublicDuties(totalPublicDuties);
+		result.setTotalPrivateDuties(totalPrivateDuties);
+		result.setTotalNumberOfPublicPrivateDuties(totalNumberOfPublicPrivateDuties);
+		result.setAverageNumberOfDutyExecutionPeriods(averageNumberOfDutyExecutionPeriods);
+		result.setTotalFinishedDuties(totalFinishedDuties);
+		result.setTotalNonFinishedDuties(totalNonFinishedDuties);
+		result.setTotalNumberOfFinishedNonFinishedDuties(totalNumberOfFinishedNonFinishedDuties);
+		result.setStdDevDutyExecutionPeriods(getStdDevDutyExecutionPeriods);
 		result.setMinExecutionPeriod(minExecutionPeriod);
 		result.setMaxExecutionPeriod(maxExecutionPeriod);
 		result.setMaxWorkload(maxWorkload);
 		result.setMaxWorkload(maxWorkload);
 		result.setMinWorkload(minWorkload);
-		result.setAverageNumberOfTaskWorkloads(averageNumberOfTaskWorkloads);
-		result.setStdDevTaskWorkloads(stdDevTaskWorkloads);
+		result.setAverageNumberOfDutyWorkloads(averageNumberOfDutyWorkloads);
+		result.setStdDevDutyWorkloads(stdDevDutyWorkloads);
 
 		return result;
 	}

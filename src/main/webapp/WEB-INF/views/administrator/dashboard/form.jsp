@@ -19,7 +19,7 @@
 	<acme:message code="administrator.dashboard.form.title.general-indicators"/>
 </h2>
 <h2>
-	<acme:message code="administrator.dashboard.form.title.task"/>
+	<acme:message code="administrator.dashboard.form.title.duty"/>
 </h2>
 
 <table class="table table-sm">
@@ -28,26 +28,26 @@
 	</caption>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totalpublictasks"/>
+			<acme:message code="administrator.dashboard.form.label.totalpublicduties"/>
 		</th>
 		<td>
-			<acme:print value="${totalPublicTasks}"/>
+			<acme:print value="${totalPublicDuties}"/>
 		</td>
 	</tr>	
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totalprivatetasks"/>
+			<acme:message code="administrator.dashboard.form.label.totalprivateduties"/>
 		</th>
 		<td>
-			<acme:print value="${totalPrivateTasks}"/>
+			<acme:print value="${totalPrivateDuties}"/>
 		</td>
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totaltasks"/>
+			<acme:message code="administrator.dashboard.form.label.totalduties"/>
 		</th>
 		<td>
-			<acme:print value="${totalNumberOfPublicPrivateTasks}"/>
+			<acme:print value="${totalNumberOfPublicPrivateDuties}"/>
 		</td>
 	</tr>
 	<tr>
@@ -55,40 +55,40 @@
 			<acme:message code="administrator.dashboard.form.label.average-execute-period"/>
 		</th>
 		<td>
-			<acme:print value="${averageNumberOfTaskExecutionPeriods}"/>
+			<acme:print value="${averageNumberOfDutyExecutionPeriods}"/>
 		</td>
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totalFinishedTasks"/>
+			<acme:message code="administrator.dashboard.form.label.totalFinishedDuties"/>
 		</th>
 		<td>
-			<acme:print value="${totalFinishedTasks}"/>
+			<acme:print value="${totalFinishedDuties}"/>
 		</td>
 	</tr>
 	<tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totalNonFinishedTasks"/>
+			<acme:message code="administrator.dashboard.form.label.totalNonFinishedDuties"/>
 		</th>
 		<td>
-			<acme:print value="${totalNonFinishedTasks}"/>
+			<acme:print value="${totalNonFinishedDuties}"/>
 		</td>
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.totalTaskFinishedAndNotFinished"/>
+			<acme:message code="administrator.dashboard.form.label.totalDutyFinishedAndNotFinished"/>
 		</th>
 		<td>
-			<acme:print value="${totalNumberOfFinishedNonFinishedTasks}"/>
+			<acme:print value="${totalNumberOfFinishedNonFinishedDuties}"/>
 		</td>
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.stdDevTaskExecutionPeriods"/>
+			<acme:message code="administrator.dashboard.form.label.stdDevDutyExecutionPeriods"/>
 		</th>
 		<td>
-			<acme:print value="${stdDevTaskExecutionPeriods}"/>
+			<acme:print value="${stdDevDutyExecutionPeriods}"/>
 		</td>
 	</tr>
 	<tr>
@@ -125,18 +125,18 @@
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.averageNumberOfTaskWorkloads"/>
+			<acme:message code="administrator.dashboard.form.label.averageNumberOfDutyWorkloads"/>
 		</th>
 		<td>
-			<acme:print value="${averageNumberOfTaskWorkloads}"/>
+			<acme:print value="${averageNumberOfDutyWorkloads}"/>
 		</td>
 	</tr>
 	<tr>
 		<th scope="row">
-			<acme:message code="administrator.dashboard.form.label.stdDevTaskWorkloads"/>
+			<acme:message code="administrator.dashboard.form.label.stdDevDutyWorkloads"/>
 		</th>
 		<td>
-			<acme:print value="${stdDevTaskWorkloads}"/>
+			<acme:print value="${stdDevDutyWorkloads}"/>
 		</td>
 	</tr>
 	
