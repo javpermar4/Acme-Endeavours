@@ -8,12 +8,12 @@
 # purposes.  The copyright owner does not offer any warranties or representations, nor do
 # they accept any liabilities with respect to them.
 
-This is the Acme Planner, which is intended to be a core learning asset for the students
+This is the Acme Endeavours, which is intended to be a core learning asset for the students
 who have enroled the Design and Testing subject of the Software Engineering curriculum of the 
 University of Sevilla.  This project helps them start working on their new information system 
 projects.
 
-GitHub repository - https://github.com/dancasnar1/Acme-Work-Plans
+GitHub repository - https://github.com/javpermar4/Acme-Endeavours
 GitHub release - https://github.com/dancasnar1/Acme-Work-Plans/releases/tag/V3.0
 
 
