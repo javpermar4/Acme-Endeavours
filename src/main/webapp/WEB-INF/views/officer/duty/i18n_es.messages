@@ -1,0 +1,51 @@
+# i18n_es.messages
+#
+# Copyright (C) 2012-2021 Rafael Corchuelo.
+#
+# In keeping with the traditional purpose of furthering education and research, it is
+# the policy of the copyright owner to permit non-commercial use and redistribution of
+# this software. It has been tested carefully, but it is not guaranteed for any particular
+# purposes.  The copyright owner does not offer any warranties or representations, nor do
+# they accept any liabilities with respect to them.
+
+officer.duty.form.title.create = Crear nueva deber.
+officer.duty.form.title.update = Actualizar deber.
+
+officer.duty.form.label.title = Título	
+officer.duty.form.label.initialMoment = Momento de Inicio
+officer.duty.form.label.endMoment = Momento de Finalización
+officer.duty.form.label.workload = Carga de Trabajo
+officer.duty.form.label.description = Descripción
+officer.duty.form.label.link = Enlace 
+officer.duty.form.label.executionPeriod = Periodo de Ejecución
+officer.duty.form.label.visibility = Visibilidad
+
+officer.duty.list.label.title = Título
+officer.duty.list.label.initialMoment = Momento de Inicio
+officer.duty.list.label.endMoment = Momento de Finalización
+officer.duty.list.label.executionPeriod = Periodo de Ejecución
+officer.duty.list.label.workload = Carga de Trabajo
+officer.duty.list.label.description = Descripción
+officer.duty.list.label.visibility = Visibilidad
+
+officer.duty.form.button.create = Crear
+officer.duty.form.button.update = Actualizar
+officer.duty.form.button.delete = Borrar
+officer.duty.form.button.return = Return
+
+officer.duty.list.title.list = Deberes
+officer.duty.list.title.myDuty = Mis deberes
+
+officer.duty.form.error.workload = La carga de trabajo no puede exceder al periodo de ejecución
+officer.duty.form.error.initialMoment = La deber no puede comenzar en el pasado
+officer.duty.form.error.endMoment = La deber no puede acabar antes de comenzar
+officer.duty.form.error.description = Comprueba el SPAM
+officer.duty.form.error.title = Comprueba el SPAM
+officer.duty.form.error.nullworkload = La carga de trabajo no puede ser nula
+officer.duty.form.error.negativeworkload = La carga de trabajo debe ser mayor que 0
+officer.duty.form.error.nullendMoment = El momento de finalización no puede ser nulo
+officer.duty.form.error.nullinitialMoment = El momento de inicio no puede ser nulo
+officer.duty.form.error.ended= No se puede modificar ni eliminar una deber que ha finalizado
+officer.duty.form.error.workplan= No puedes borrar una deber que pertenezca a un workplan
+officer.duty.form.error.biggerThanLimit = La workload debe ser más pequeña de 99.59
+officer.duty.form.error.fractionError = Los minutos de la workload deben estar entre 0 y 59

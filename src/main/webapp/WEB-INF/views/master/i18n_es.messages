@@ -32,7 +32,7 @@ master.menu.anonymous = Anónimo
 master.menu.anonymous.favourite-link = Enlace favorito
 master.menu.anonymous.shout = Gritar
 master.menu.anonymous.shoutList = Lista de Gritos
-master.menu.anonymous.taskList = Lista de Tareas
+master.menu.anonymous.dutyList = Lista de Deberes
 
 # master.menu.administrator ###################################################
 
@@ -49,13 +49,13 @@ master.menu.administrator.shutdown = Parar el sistema
 # master.menu.authenticated #########################################################
 
 master.menu.authenticated = Autenticado
-master.menu.authenticated.task.list = Lista de tareas
+master.menu.authenticated.duty.list = Lista de deberes
 master.menu.officer = Oficial
-master.menu.officer.task.taskList = Lista de tareas
-master.menu.officer.task.my-task = Mis tareas
-master.menu.officer.task.taskCreate = Crear tarea
+master.menu.officer.duty.dutyList = Lista de deberes
+master.menu.officer.duty.my-duty = Mis deberes
+master.menu.officer.duty.dutyCreate = Crear deber
 
-master.menu.authenticated.officer.taskList = Lista de tareas
+master.menu.authenticated.officer.dutyList = Lista de deberes
 
 # master.menu.officer ########################################################
 
