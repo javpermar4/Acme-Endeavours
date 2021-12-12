@@ -1,0 +1,3 @@
+timestamp,test-class,test-method,time,description,result
+2021-08-30 13:48:32.71,acme.testing.manager.workplan.ManagerWorkplanPublishTest,publishPositive,7737,"[1] recordIndex=3, title=Workplan4, iniMoment=2021/06/01 00:00, endMoment=2021/12/31 23:59, exePeriod=5,136.98, workload=20.30, visibility=True, published=True",Expected value 'True' in input box 'isPublished', but 'False' was found
+2021-08-30 13:48:38.538,acme.testing.manager.workplan.ManagerWorkplanPublishTest,publishNegative,5596,"[1] recordIndex=4, title=Workplan4, iniMoment=2021/06/01 00:00, endMoment=null, exePeriod=5,136.98, workload=0.00, visibility=True, published=True",OK

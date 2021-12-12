@@ -1,0 +1,94 @@
+timestamp,test-class,test-method,time,description,result
+2021-08-30 13:58:56.51,acme.testing.authenticated.becomeManager.AuthenticatedBecomeManagerTest,becomeManager,7419,"becomeManager()",OK
+2021-08-30 13:59:10.768,acme.testing.anonymous.workplan.AnonymousWorkplanListTest,list,3481,"[1] recordIndex=0, title=Workplan4, isPublic=true, isPublished=false, init=2021/09/30 00:00, end=2021/12/31 23:59, workload=20.30, executionPeriod=5,136.98",OK
+2021-08-30 13:59:25.467,acme.testing.administrator.dashboard.AdministratorDashboardShowTest,seeDashboard,3988,"seeDashboard()",OK
+2021-08-30 13:59:44.358,acme.testing.manager.workplan.ManagerWorkplanUnnasignedTest,unnasignedNegative,8188,"[1] recordIndex=3",OK
+2021-08-30 14:00:23.352,acme.testing.manager.workplan.ManagerWorkplanUnnasignedTest,unnasignedPositive,38772,"[1] recordIndex=3, title=Workplan4, iniMoment=2021/09/30 00:00, endMoment=2021/12/31 23:59, exePeriod=5,136.98, workload=0.00, visibility=True, published=False",OK
+2021-08-30 14:00:42.779,acme.testing.manager.workplan.ManagerWorkplanDeleteTest,deletePositive,8789,"[1] recordIndex=2, title=Workplan4, iniMoment=2021/09/30 00:00, endMoment=2021/12/31 23:59, exePeriod=5,136.98, workload=20.30, visibility=True, published=False",OK
+2021-08-30 14:00:49.377,acme.testing.manager.workplan.ManagerWorkplanDeleteTest,deleteNegative,6375,"[1] recordIndex=4",OK
+2021-08-30 14:01:08.355,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createPositive,8269,"[1] recordIndex=0, title=Workplan Test, iniMoment=2021/09/30 10:30, endMoment=2021/10/30 12:30, exePeriod=722.00, workload=0.00, visibility=True, published=False",OK
+2021-08-30 14:01:13.48,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,4920,"[1] recordIndex=0, title=null, iniMoment=null, endMoment=null",OK
+2021-08-30 14:01:18.737,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5023,"[2] recordIndex=0, title=Workplan sex, iniMoment=2021/07/17 10:30, endMoment=2021/08/17 10:30",OK
+2021-08-30 14:01:23.995,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5024,"[3] recordIndex=0, title=null, iniMoment=2021/07/17 10:30, endMoment=2021/08/17 10:30",OK
+2021-08-30 14:01:29.25,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5016,"[4] recordIndex=0, title=Workplan Test, iniMoment=2018/07/17 10:30, endMoment=2021/08/17 10:30",OK
+2021-08-30 14:01:34.567,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5084,"[5] recordIndex=0, title=Workplan Test, iniMoment=2021/07/17 10:30, endMoment=2019/08/17 10:30",OK
+2021-08-30 14:01:39.824,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5031,"[6] recordIndex=0, title=Workplan Test, iniMoment=null, endMoment=2021/08/17 10:30",OK
+2021-08-30 14:01:45.072,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5041,"[7] recordIndex=0, title=Workplan Test, iniMoment=2021/07/17 10:30, endMoment=null",OK
+2021-08-30 14:01:50.365,acme.testing.manager.workplan.ManagerWorkplanCreateTest,createNegative,5065,"[8] recordIndex=0, title=Workplan sex, iniMoment=2021/07/17 10:30, endMoment=2021/06/17 10:30",OK
+2021-08-30 14:02:07.323,acme.testing.manager.workplan.ManagerWorkplanListAllTest,listAll,6409,"[1] recordIndex=0, title=Workplan1, iniMoment=2021/01/01 00:00, endMoment=2021/12/31 23:59, exePeriod=4.00, workload=0.00, visibility=True, published=False",OK
+2021-08-30 14:02:13.914,acme.testing.manager.workplan.ManagerWorkplanListAllTest,listAll,6368,"[2] recordIndex=1, title=Workplan2, iniMoment=2021/01/01 00:00, endMoment=2021/12/31 23:59, exePeriod=4.00, workload=0.00, visibility=True, published=True",OK
+2021-08-30 14:02:20.488,acme.testing.manager.workplan.ManagerWorkplanListAllTest,listAll,6339,"[3] recordIndex=2, title=Workplan3, iniMoment=2021/01/01 00:00, endMoment=2021/12/31 23:59, exePeriod=4.00, workload=0.00, visibility=False, published=False",OK
+2021-08-30 14:02:27.153,acme.testing.manager.workplan.ManagerWorkplanListAllTest,listAll,6429,"[4] recordIndex=3, title=Workplan4, iniMoment=2021/09/30 00:00, endMoment=2021/12/31 23:59, exePeriod=5,136.98, workload=20.30, visibility=True, published=False",OK
+2021-08-30 14:02:46.486,acme.testing.manager.workplan.ManagerWorkplanPublishTest,publishPositive,8755,"[1] recordIndex=3, title=Workplan4, iniMoment=2021/09/30 00:00, endMoment=2021/12/31 23:59, exePeriod=2,232.98, workload=20.30, visibility=True, published=True",OK
+2021-08-30 14:02:52.293,acme.testing.manager.workplan.ManagerWorkplanPublishTest,publishNegative,5584,"[1] recordIndex=4, title=Workplan4, iniMoment=2021/09/30 00:00, endMoment=null, exePeriod=5,136.98, workload=0.00, visibility=True, published=True",OK
+2021-08-30 14:03:11.27,acme.testing.manager.workplan.ManagerWorkplanUpdateTest,updatePositive,8314,"[1] recordIndex=0, title=Workplan Test, iniMoment=2021/09/30 00:00, endMoment=2021/10/30 10:30, exePeriod=730.50, workload=0.00, visibility=True, published=False",OK
+2021-08-30 14:03:17.284,acme.testing.manager.workplan.ManagerWorkplanUpdateTest,updateNegative,5793,"[1] recordIndex=0, title=Workplan Test, iniMoment=2021/07/17 10:30, endMoment=null",OK
+2021-08-30 14:03:34.251,acme.testing.administrator.task.AdministratorTaskTest,list,6272,"[1] recordIndex=0, title=Task 4, initialMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, workload=25.30, executionPeriod=984.00, description=aaaaaaaaaaaa, link=null, visibility=Public",OK
+2021-08-30 14:03:54.43,acme.testing.manager.task.ManagerTaskCreateTest,createPositive,9446,"[1] recordIndex=1, title=Task testing, iniMoment=2021/09/30 10:30, endMoment=2021/10/30 12:30, exePeriod=722.00, workload=25.30, description=Probando testing de las task, visibility=PUBLIC, link=null",OK
+2021-08-30 14:04:00.252,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5597,"[1] recordIndex=0, title=null, iniMoment=null, endMoment=null, exePeriod=null, workload=null, description=null, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:06.25,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5759,"[2] recordIndex=1, title=Task1, iniMoment=2021/04/17 10:30, endMoment=2021/08/30 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las task, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:12.116,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5628,"[3] recordIndex=2, title=Task1, iniMoment=2021/06/17 10:30, endMoment=2021/05/30 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las task, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:18.08,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5748,"[4] recordIndex=3, title=Task1, iniMoment=2021/06/17 10:30, endMoment=2021/04/30 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las task, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:23.984,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5667,"[5] recordIndex=4, title=Task sexo, iniMoment=2021/06/17 10:30, endMoment=2021/07/30 12:30, exePeriod=1,058.00, workload=25.30, description=This is a description sexo, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:29.979,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5758,"[6] recordIndex=5, title=Task1, iniMoment=2021/06/17 10:30, endMoment=2021/07/30 12:30, exePeriod=1,058.00, workload=-10, description=This is a description, link=null, visibility=PUBLIC",OK
+2021-08-30 14:04:35.941,acme.testing.manager.task.ManagerTaskCreateTest,createNegative,5728,"[7] recordIndex=6, title=Task1, iniMoment=2021/06/17 10:30, endMoment=2021/07/30 12:30, exePeriod=1,058.00, workload=10, description=This is a description, link=URL incorrecta, visibility=PUBLIC",OK
+2021-08-30 14:04:55.098,acme.testing.manager.task.ManagerTaskDeleteTest,deletePositive,8439,"[1] recordIndex=2, title=Task 4, iniMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, exePeriod=984.00, workload=25.30, description=aaaaaaaaaaaa, visibility=PUBLIC, link=null",OK
+2021-08-30 14:04:58.743,acme.testing.manager.task.ManagerTaskDeleteTest,deleteNegative,3420,"[1] recordIndex=0",OK
+2021-08-30 14:05:35.518,acme.testing.manager.task.ManagerTaskDeleteTest,deleteNegative2,36554,"[1] recordIndex=0",OK
+2021-08-30 14:05:53.095,acme.testing.manager.task.ManagerTaskListAllTest,listAll,6924,"[1] recordIndex=0, title=Task 4, iniMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, exePeriod=984.00, workload=25.30, description=aaaaaaaaaaaa, visibility=PUBLIC, link=null",OK
+2021-08-30 14:06:00.225,acme.testing.manager.task.ManagerTaskListAllTest,listAll,6904,"[2] recordIndex=1, title=Task 2, iniMoment=2021/02/05 12:30, endMoment=2021/03/31 12:30, exePeriod=1,296.00, workload=28.30, description=Esta es la segunda Task, visibility=PUBLIC, link=null",OK
+2021-08-30 14:06:19.03,acme.testing.manager.task.ManagerTaskUpdateTest,updatePositive,8088,"[1] recordIndex=0, title=Task 11, iniMoment=2022/07/10 15:30, endMoment=2022/10/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la task 11 actualizada, visibility=PUBLIC, link=null",OK
+2021-08-30 14:06:25.711,acme.testing.manager.task.ManagerTaskUpdateTest,updateNegative,6458,"[1] recordIndex=0, title=Task 11, iniMoment=2022/07/10 15:30, endMoment=2022/05/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la task 11 actualizada, visibility=PUBLIC, link=null",OK
+2021-08-30 14:06:37.769,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1470,"[1] recordIndex=0, moment=2021/08/30 12:30, author=Luis Delgado, text=Creando mi primer bean",OK
+2021-08-30 14:06:39.44,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1458,"[2] recordIndex=1, moment=2021/08/30 12:30, author=Shout 8, text=Poblando la BD",OK
+2021-08-30 14:06:41.134,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1470,"[3] recordIndex=2, moment=2021/08/30 12:30, author=Shout 9, text=Creando mi 9 shout!",OK
+2021-08-30 14:06:55.408,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3073,"[1] recordIndex=0, author=Luis Delgado, text=Creando mi primer bean, info=https://www.example.org",OK
+2021-08-30 14:06:58.702,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3081,"[2] recordIndex=0, author=Daniel Castroviejo, text=Creando mi 9 shout!, info=null",OK
+2021-08-30 14:07:00.776,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1856,"[1] recordIndex=1, author=Luis Delgado, text=null, info=https://www.example.org",OK
+2021-08-30 14:07:02.795,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1794,"[2] recordIndex=2, author=null, text=Creando mi 9 shout!, info=null",OK
+2021-08-30 14:07:04.846,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1830,"[3] recordIndex=3, author=Shout 8, text=Poblando la BD, info=www.urlmal",OK
+2021-08-30 14:07:06.896,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1829,"[4] recordIndex=4, author=Spam sex, text=Poblando la BD, info=null",OK
+2021-08-30 14:07:08.917,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1803,"[5] recordIndex=5, author=Shout66, text=Spam sex, info=null",OK
+2021-08-30 14:07:22.588,acme.testing.anonymous.task.AnonymousTaskListTest,list,3024,"[1] recordIndex=0, title=Holaaaaa, iniMoment=2021/08/30 12:30, endMoment=2021/09/25 12:00, workload=20.30, exePeriod=599.50, description=Descripcion aaaaaaaaa, link=null, visibility=Public",OK
+2021-08-30 14:07:25.849,acme.testing.anonymous.task.AnonymousTaskListTest,list,3024,"[2] recordIndex=1, title=Task 3, iniMoment=2021/08/30 12:30, endMoment=2021/09/30 12:30, workload=23.00, exePeriod=960.00, description=Esta es la tercera Task, link=null, visibility=Public",OK
+2021-08-30 14:07:29.055,acme.testing.anonymous.task.AnonymousTaskListTest,list,2989,"[3] recordIndex=2, title=Task 5, iniMoment=2021/08/30 12:30, endMoment=2021/09/30 12:30, workload=25.30, exePeriod=960.00, description=aaaaaaaaaaaa, link=null, visibility=Public",OK
+2021-08-30 14:07:32.283,acme.testing.anonymous.task.AnonymousTaskListTest,list,3015,"[4] recordIndex=3, title=Task 6, iniMoment=2021/08/12 10:30, endMoment=2021/09/21 10:30, workload=25.30, exePeriod=504.00, description=Creando mi 6 tarea :), link=null, visibility=Public",OK
+2021-08-30 14:07:35.525,acme.testing.anonymous.task.AnonymousTaskListTest,list,3040,"[5] recordIndex=4, title=Task 9, iniMoment=2021/08/10 15:30, endMoment=2021/11/07 15:30, workload=25.30, exePeriod=2,136.00, description=Popular base de datos, link=null, visibility=Public",OK
+2021-08-30 14:07:38.754,acme.testing.anonymous.task.AnonymousTaskListTest,list,3031,"[6] recordIndex=5, title=Task 8, iniMoment=2021/08/10 13:30, endMoment=2021/09/25 13:30, workload=25.30, exePeriod=1,080.00, description=Task 8 realizada, link=null, visibility=Public",OK
+2021-08-30 14:07:42.003,acme.testing.anonymous.task.AnonymousTaskListTest,list,3015,"[7] recordIndex=6, title=Task 7, iniMoment=2021/07/20 17:30, endMoment=2021/10/15 17:30, workload=25.30, exePeriod=624.00, description=Realización de la task 7, link=null, visibility=Public",OK
+2021-08-30 14:07:45.237,acme.testing.anonymous.task.AnonymousTaskListTest,list,3004,"[8] recordIndex=7, title=Task 11, iniMoment=2021/07/10 15:30, endMoment=2021/10/07 15:30, workload=25.30, exePeriod=2,136.00, description=Esta es la task 11, link=null, visibility=Public",OK
+2021-08-30 14:08:01.889,acme.testing.SignUpTest,positiveSignUp,5879,"[1] username=johnny, password=johnny, name=Johnny, surname=López, email=john@mail.com",OK
+2021-08-30 14:08:07.968,acme.testing.SignUpTest,positiveSignUp,5874,"[2] username=lorraine, password=lorraine, name=Lorraine, surname=Williams, email=lorraine@yellow-house.com",OK
+2021-08-30 14:08:14.103,acme.testing.SignUpTest,positiveSignUp,5898,"[3] username=leslie, password=leslie, name=Leslie Marti, surname=Ramport, email=leslie@us.es",OK
+2021-08-30 14:08:20.215,acme.testing.SignUpTest,positiveSignUp,5888,"[4] username=robert, password=robert, name=Robert, surname=Johnson, email=robert@mail.server.com",OK
+2021-08-30 14:08:26.388,acme.testing.SignUpTest,positiveSignUp,5937,"[5] username=pepeluis, password=pepeluis, name=José Luis, surname=Sørensen, email=ppepe.sorensen@sweden.sw",OK
+2021-08-30 14:08:32.585,acme.testing.SignUpTest,positiveSignUp,5959,"[6] username=luisa, password=luisa, name=Luisa, surname=Martínez López, email=luisa@luisa.name",OK
+2021-08-30 14:08:38.675,acme.testing.SignUpTest,positiveSignUp,5833,"[7] username=lukas, password=lukas, name=Lukas, surname=Smith, email=lukas@mail.com",OK
+2021-08-30 14:08:44.773,acme.testing.SignUpTest,positiveSignUp,5878,"[8] username=mary-dt, password=mary-dt, name=Mary, surname=Design-Testing, email=mary@email.com",OK
+2021-08-30 14:08:50.964,acme.testing.SignUpTest,positiveSignUp,5924,"[9] username=jorge, password=jorge, name=Jorge, surname=Libertad, email=jorge@yahoo.com",OK
+2021-08-30 14:08:57.079,acme.testing.SignUpTest,positiveSignUp,5896,"[10] username=sonia, password=sonia, name=Snojia Guðrún, surname=Þor-Anaïs, email=sonja@liberty.de",OK
+2021-08-30 14:09:03.211,acme.testing.SignUpTest,positiveSignUp,5881,"[11] username=parker, password=parker, name=Parker Sigurður, surname=Mañón-Perigüeñez, email=parker@outlook.com",OK
+2021-08-30 14:09:09.317,acme.testing.SignUpTest,positiveSignUp,5887,"[12] username=manolo, password=manolo, name=Manuel Raúl, surname=Benítez López, email=manolo@engineer.com",OK
+2021-08-30 14:09:24.545,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updatePositive,4657,"[1] recordIndex=0, umbral=50.00",OK
+2021-08-30 14:09:27.974,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updateNegative,3193,"[1] recordIndex=0, umbral=200.00",OK
+2021-08-30 14:09:31.405,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updateNegative,3193,"[2] recordIndex=1, umbral=-100.00",OK
+2021-08-30 14:09:48.627,acme.testing.administrator.spam.AdministratorSpamWordUpdateTest,updatePositive,6577,"[1] recordIndex=0, word=test",OK
+2021-08-30 14:09:52.974,acme.testing.administrator.spam.AdministratorSpamWordUpdateTest,updateNegative,4123,"[1] recordIndex=0, word=null",OK
+2021-08-30 14:10:11.086,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deletePositive,7423,"[1] recordIndex=3, word=nigeria",OK
+2021-08-30 14:10:15.585,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deletePositive2,4276,"[1] recordIndex=0",OK
+2021-08-30 14:10:18.198,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deleteNegative,2377,"[1] recordIndex=0",OK
+2021-08-30 14:10:35.459,acme.testing.administrator.spam.AdministratorSpamWordCreateTest,createPositive,6617,"[1] recordIndex=14, word=test",OK
+2021-08-30 14:10:39.498,acme.testing.administrator.spam.AdministratorSpamWordCreateTest,createNegative,3793,"[1] recordIndex=0, word=null",OK
+2021-08-30 14:10:54.764,acme.testing.administrator.spam.AdministratorSpamListTest,list,4554,"[1] recordIndex=0, umbral=10.00",OK
+2021-08-30 14:11:09.691,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4136,"[1] recordIndex=0, word=sex",OK
+2021-08-30 14:11:14.007,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4095,"[2] recordIndex=1, word=hard core",OK
+2021-08-30 14:11:18.377,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4135,"[3] recordIndex=2, word=viagra",OK
+2021-08-30 14:11:22.773,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4148,"[4] recordIndex=3, word=cialis",OK
+2021-08-30 14:11:27.102,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4126,"[5] recordIndex=4, word=nigeria",OK
+2021-08-30 14:11:31.438,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4103,"[6] recordIndex=5, word=you’ve won",OK
+2021-08-30 14:11:35.732,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4067,"[7] recordIndex=6, word=million dollar",OK
+2021-08-30 14:11:40.088,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4137,"[8] recordIndex=7, word=sexo",OK
+2021-08-30 14:11:44.397,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4096,"[9] recordIndex=8, word=núcleo duro",OK
+2021-08-30 14:11:48.701,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4098,"[10] recordIndex=9, word=viagra",OK
+2021-08-30 14:11:53.016,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4096,"[11] recordIndex=10, word=cialis",OK
+2021-08-30 14:11:57.328,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4095,"[12] recordIndex=11, word=Nigeria",OK

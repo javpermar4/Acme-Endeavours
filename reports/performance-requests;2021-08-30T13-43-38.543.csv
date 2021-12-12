@@ -1,0 +1,26 @@
+timestamp,simple-path,time
+2021-08-30 13:43:44.469,/master/welcome,210
+2021-08-30 13:43:44.712,/master/welcome,186
+2021-08-30 13:43:45.409,/master/sign-in,582
+2021-08-30 13:43:46.673,/master/welcome,599
+2021-08-30 13:43:48.258,/master/welcome,172
+2021-08-30 13:43:48.97,/master/welcome,603
+2021-08-30 13:43:49.287,/master/welcome,178
+2021-08-30 13:43:49.505,/master/welcome,174
+2021-08-30 13:43:50.196,/master/sign-in,585
+2021-08-30 13:43:51.513,/master/welcome,589
+2021-08-30 13:43:52.359,/management/workplan/list,582
+2021-08-30 13:43:53.195,/management/workplan/show,594
+2021-08-30 13:43:53.866,/management/workplan/list,612
+2021-08-30 13:43:54.627,/management/workplan/list,587
+2021-08-30 13:43:56.65,/management/workplan/show,602
+2021-08-30 13:43:57.325,/master/welcome,172
+2021-08-30 13:43:58.024,/master/welcome,588
+2021-08-30 13:43:58.292,/master/welcome,175
+2021-08-30 13:43:58.483,/master/welcome,158
+2021-08-30 13:43:59.176,/master/sign-in,586
+2021-08-30 13:44:00.436,/master/welcome,577
+2021-08-30 13:44:01.253,/management/workplan/list,588
+2021-08-30 13:44:02.072,/management/workplan/show,583
+2021-08-30 13:44:02.716,/management/workplan/publish,582
+2021-08-30 13:44:03.568,/management/workplan/list,583
