@@ -1,3 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-13 12:04:28.604,acme.testing.officer.duty.OfficerDutyUpdateTest,updatePositive,8668,"[1] recordIndex=0, title=Task 11, iniMoment=2022/07/10 15:30, endMoment=2022/10/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la task 11 actualizada, visibility=PUBLIC, link=null",OK
-2021-12-13 12:04:35.635,acme.testing.officer.duty.OfficerDutyUpdateTest,updateNegative,6734,"[1] recordIndex=0, title=Duty 11, iniMoment=2022/07/10 15:30, endMoment=2022/05/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la duty 11 actualizada, visibility=PUBLIC, link=null",OK

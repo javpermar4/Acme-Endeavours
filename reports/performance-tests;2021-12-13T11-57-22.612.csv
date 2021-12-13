@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-13 11:57:39.271,acme.testing.officer.duty.OfficerDutyCreateTest,createPositive,6074,"[1] recordIndex=0, title=Duty testing, iniMoment=2022/01/30 10:30, endMoment=2022/04/30 12:30, exePeriod=722.00, workload=25.30, description=Probando testing de las duties, visibility=PUBLIC, link=null",Expected value 'Duty testing' in attribute 0 of record 0, but found 'Duty 11'

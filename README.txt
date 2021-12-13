@@ -14,6 +14,6 @@ University of Sevilla.  This project helps them start working on their new infor
 projects.
 
 GitHub repository - https://github.com/javpermar4/Acme-Endeavours
-GitHub release - https://github.com/javpermar4/Acme-Endeavours/releases/tag/V2.0
+GitHub release - https://github.com/javpermar4/Acme-Endeavours/releases/tag/V3.0
 
 

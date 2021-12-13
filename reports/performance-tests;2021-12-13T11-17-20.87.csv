@@ -1,4 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-13 11:17:39.073,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,2066,"[1] recordIndex=0, moment=2021/11/30 12:30, author=Luis Delgado, text=Creando mi primer bean",OK
-2021-12-13 11:17:40.9,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1513,"[2] recordIndex=1, moment=2021/11/30 12:30, author=Shout 8, text=Poblando la BD",OK
-2021-12-13 11:17:42.708,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1510,"[3] recordIndex=2, moment=2021/11/30 12:30, author=Shout 9, text=Creando mi 9 shout!",OK

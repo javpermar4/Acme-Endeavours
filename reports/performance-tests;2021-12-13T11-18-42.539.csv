@@ -1,2 +1,0 @@
-timestamp,test-class,test-method,time,description,result
-2021-12-13 11:18:56.482,acme.testing.administrator.duty.AdministratorDutyTest,list,3461,"[1] recordIndex=0, title=Task 4, initialMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, workload=25.30, executionPeriod=984.00, description=aaaaaaaaaaaa, link=null, visibility=Public",Expected value 'Task 4' in attribute 0 of record 0, but found 'Holaaaaa'
