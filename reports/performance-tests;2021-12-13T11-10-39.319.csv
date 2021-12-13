@@ -1,0 +1,11 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-13 11:11:30.294,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,31537,"[1] recordIndex=0, moment=2021/08/30 12:30, author=Luis Delgado, text=Creando mi primer bean",Record index 0 is out of range
+2021-12-13 11:12:01.57,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,30921,"[2] recordIndex=1, moment=2021/08/30 12:30, author=Shout 8, text=Poblando la BD",Record index 1 is out of range
+2021-12-13 11:12:32.826,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,30939,"[3] recordIndex=2, moment=2021/08/30 12:30, author=Shout 9, text=Creando mi 9 shout!",Record index 2 is out of range
+2021-12-13 11:12:46.987,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3148,"[1] recordIndex=0, author=Luis Delgado, text=Creando mi primer bean, info=https://www.example.org",OK
+2021-12-13 11:12:51.819,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4269,"[2] recordIndex=0, author=Daniel Castroviejo, text=Creando mi 9 shout!, info=null",OK
+2021-12-13 11:12:54.317,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1904,"[1] recordIndex=1, author=Luis Delgado, text=null, info=https://www.example.org",OK
+2021-12-13 11:12:56.759,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1876,"[2] recordIndex=2, author=null, text=Creando mi 9 shout!, info=null",OK
+2021-12-13 11:12:59.208,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1873,"[3] recordIndex=3, author=Shout 8, text=Poblando la BD, info=www.urlmal",OK
+2021-12-13 11:13:01.658,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1893,"[4] recordIndex=4, author=Spam sex, text=Poblando la BD, info=null",OK
+2021-12-13 11:13:04.047,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1838,"[5] recordIndex=5, author=Shout66, text=Spam sex, info=null",OK

@@ -1,0 +1,74 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-13 13:00:24.232,acme.testing.authenticated.becomeOfficer.AuthenticatedBecomeOfficerTest,becomeManager,12186,"becomeManager()",OK
+2021-12-13 13:00:42.924,acme.testing.administrator.duty.AdministratorDutyTest,list,8196,"[1] recordIndex=0, title=Duty 4, initialMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, workload=25.30, executionPeriod=984.00, description=aaaaaaaaaaaa, link=null, visibility=Public",OK
+2021-12-13 13:00:56.915,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3179,"[1] recordIndex=0, title=Holaaaaa, iniMoment=2021/11/30 12:30, endMoment=2021/12/25 12:00, workload=20.30, exePeriod=599.50, description=Descripcion aaaaaaaaa, link=null, visibility=Public",OK
+2021-12-13 13:01:00.374,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3119,"[2] recordIndex=1, title=Duty 3, iniMoment=2021/11/30 12:30, endMoment=2021/12/30 12:30, workload=23.00, exePeriod=960.00, description=Esta es la tercera Duty, link=null, visibility=Public",OK
+2021-12-13 13:01:03.779,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3100,"[3] recordIndex=2, title=Duty 5, iniMoment=2021/11/30 12:30, endMoment=2021/12/30 12:30, workload=25.30, exePeriod=960.00, description=aaaaaaaaaaaa, link=null, visibility=Public",OK
+2021-12-13 13:01:07.187,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3115,"[4] recordIndex=3, title=Duty 6, iniMoment=2021/11/12 10:30, endMoment=2022/01/21 10:30, workload=25.30, exePeriod=504.00, description=Creando mi 6 deber :), link=null, visibility=Public",OK
+2021-12-13 13:01:10.607,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3100,"[5] recordIndex=4, title=Duty 9, iniMoment=2021/11/10 15:30, endMoment=2022/01/07 15:30, workload=25.30, exePeriod=2,136.00, description=Popular base de datos, link=null, visibility=Public",OK
+2021-12-13 13:01:14.074,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3177,"[6] recordIndex=5, title=Duty 8, iniMoment=2021/11/10 13:30, endMoment=2021/12/25 13:30, workload=25.30, exePeriod=1,080.00, description=Duty 8 realizada, link=null, visibility=Public",OK
+2021-12-13 13:01:17.495,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3115,"[7] recordIndex=6, title=Duty 7, iniMoment=2021/07/20 17:30, endMoment=2022/01/15 17:30, workload=25.30, exePeriod=624.00, description=Realización de la duty 7, link=null, visibility=Public",OK
+2021-12-13 13:01:20.832,acme.testing.anonymous.duty.AnonymousDutyListTest,list,3039,"[8] recordIndex=7, title=Duty 11, iniMoment=2021/07/10 15:30, endMoment=2022/01/07 15:30, workload=25.30, exePeriod=2,136.00, description=Esta es la duty 11, link=null, visibility=Public",OK
+2021-12-13 13:01:37.044,acme.testing.administrator.dashboard.AdministratorDashboardShowTest,seeDashboard,4819,"seeDashboard()",OK
+2021-12-13 13:01:59.112,acme.testing.officer.duty.OfficerDutyUpdateTest,updatePositive,10309,"[1] recordIndex=0, title=Duty 11, iniMoment=2022/07/10 15:30, endMoment=2022/10/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la duty 11 actualizada, visibility=PUBLIC, link=null",OK
+2021-12-13 13:02:06.346,acme.testing.officer.duty.OfficerDutyUpdateTest,updateNegative,6894,"[1] recordIndex=0, title=Duty 11, iniMoment=2022/07/10 15:30, endMoment=2022/05/07 15:30, exePeriod=2,136.00, workload=25.30, description=Esta es la duty 11 actualizada, visibility=PUBLIC, link=null",OK
+2021-12-13 13:02:27.17,acme.testing.officer.duty.OfficerDutyDeleteTest,deletePositive,9802,"[1] recordIndex=2, title=Duty 4, iniMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, exePeriod=984.00, workload=25.30, description=aaaaaaaaaaaa, visibility=PUBLIC, link=null",OK
+2021-12-13 13:02:31.571,acme.testing.officer.duty.OfficerDutyDeleteTest,deleteNegative,4081,"[1] recordIndex=0",OK
+2021-12-13 13:03:09.681,acme.testing.officer.duty.OfficerDutyDeleteTest,deleteNegative2,37772,"[1] recordIndex=0",OK
+2021-12-13 13:03:28.153,acme.testing.officer.duty.OfficerDutyListAllTest,listAll,7435,"[1] recordIndex=0, title=Duty 4, iniMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, exePeriod=984.00, workload=25.30, description=aaaaaaaaaaaa, visibility=PUBLIC, link=null",OK
+2021-12-13 13:03:35.77,acme.testing.officer.duty.OfficerDutyListAllTest,listAll,7297,"[2] recordIndex=1, title=Duty 2, iniMoment=2021/02/05 12:30, endMoment=2021/03/31 12:30, exePeriod=1,296.00, workload=28.30, description=Esta es la segunda Duty, visibility=PUBLIC, link=null",OK
+2021-12-13 13:03:56.897,acme.testing.officer.duty.OfficerDutyCreateTest,createPositive,9924,"[1] recordIndex=1, title=Duty testing, iniMoment=2022/01/30 10:30, endMoment=2022/04/30 12:30, exePeriod=2,161.00, workload=25.30, description=Probando testing de las duties, visibility=PUBLIC, link=null",OK
+2021-12-13 13:04:03.11,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,5862,"[1] recordIndex=0, title=null, iniMoment=null, endMoment=null, exePeriod=null, workload=null, description=null, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:09.488,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6016,"[2] recordIndex=1, title=Duty1, iniMoment=2021/10/17 10:30, endMoment=2022/03/15 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las duty, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:15.849,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6036,"[3] recordIndex=2, title=Duty1, iniMoment=2022/02/17 10:30, endMoment=2022/01/30 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las duty, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:22.175,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6000,"[4] recordIndex=3, title=Duty1, iniMoment=2021/06/17 10:30, endMoment=2021/04/30 12:30, exePeriod=1,058.00, workload=25.30, description=testing de las duty, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:28.552,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6042,"[5] recordIndex=4, title=Duty sexo, iniMoment=2022/01/17 10:30, endMoment=2021/03/30 12:30, exePeriod=1,058.00, workload=25.30, description=This is a description sexo, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:35.128,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6221,"[6] recordIndex=5, title=Duty1, iniMoment=2022/01/17 10:30, endMoment=2022/03/30 12:30, exePeriod=1,058.00, workload=-10, description=This is a description, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:41.92,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6439,"[7] recordIndex=6, title=Duty1, iniMoment=2022/01/17 10:30, endMoment=2022/03/30 12:30, exePeriod=1,058.00, workload=10, description=This is a description, link=URL incorrecta, visibility=PUBLIC",OK
+2021-12-13 13:04:48.344,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6070,"[8] recordIndex=7, title=Duty1, iniMoment=2022/01/17 10:30, endMoment=2022/03/30 12:30, exePeriod=1,058.00, workload=1000, description=This is a description, link=null, visibility=PUBLIC",OK
+2021-12-13 13:04:54.668,acme.testing.officer.duty.OfficerDutyCreateTest,createNegative,6011,"[9] recordIndex=8, title=Duty1, iniMoment=2022/01/17 10:30, endMoment=2022/03/30 12:30, exePeriod=1,058.00, workload=80.80, description=This is a description, link=null, visibility=PUBLIC",OK
+2021-12-13 13:05:07.477,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1617,"[1] recordIndex=0, moment=2021/11/30 12:30, author=Luis Delgado, text=Creando mi primer bean",OK
+2021-12-13 13:05:09.409,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1471,"[2] recordIndex=1, moment=2021/11/30 12:30, author=Shout 8, text=Poblando la BD",OK
+2021-12-13 13:05:11.287,acme.testing.anonymous.shout.AnonymousShoutListAllTest,listAll,1550,"[3] recordIndex=2, moment=2021/11/30 12:30, author=Shout 9, text=Creando mi 9 shout!",OK
+2021-12-13 13:05:26.743,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,4399,"[1] recordIndex=0, author=Luis Delgado, text=Creando mi primer bean, info=https://www.example.org",OK
+2021-12-13 13:05:30.132,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createPositive,3077,"[2] recordIndex=0, author=Daniel Castroviejo, text=Creando mi 9 shout!, info=null",OK
+2021-12-13 13:05:32.343,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1868,"[1] recordIndex=1, author=Luis Delgado, text=null, info=https://www.example.org",OK
+2021-12-13 13:05:34.581,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1861,"[2] recordIndex=2, author=null, text=Creando mi 9 shout!, info=null",OK
+2021-12-13 13:05:36.872,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1883,"[3] recordIndex=3, author=Shout 8, text=Poblando la BD, info=www.urlmal",OK
+2021-12-13 13:05:39.078,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1866,"[4] recordIndex=4, author=Spam sex, text=Poblando la BD, info=null",OK
+2021-12-13 13:05:41.393,acme.testing.anonymous.shout.AnonymousShoutCreateTest,createNegative,1968,"[5] recordIndex=5, author=Shout66, text=Spam sex, info=null",OK
+2021-12-13 13:05:59.822,acme.testing.SignUpTest,positiveSignUp,6658,"[1] username=johnny, password=johnny, name=Johnny, surname=López, email=john@mail.com",OK
+2021-12-13 13:06:06.523,acme.testing.SignUpTest,positiveSignUp,6349,"[2] username=lorraine, password=lorraine, name=Lorraine, surname=Williams, email=lorraine@yellow-house.com",OK
+2021-12-13 13:06:13.065,acme.testing.SignUpTest,positiveSignUp,6208,"[3] username=leslie, password=leslie, name=Leslie Marti, surname=Ramport, email=leslie@us.es",OK
+2021-12-13 13:06:19.677,acme.testing.SignUpTest,positiveSignUp,6220,"[4] username=robert, password=robert, name=Robert, surname=Johnson, email=robert@mail.server.com",OK
+2021-12-13 13:06:26.224,acme.testing.SignUpTest,positiveSignUp,6202,"[5] username=pepeluis, password=pepeluis, name=José Luis, surname=Sørensen, email=ppepe.sorensen@sweden.sw",OK
+2021-12-13 13:06:33.022,acme.testing.SignUpTest,positiveSignUp,6455,"[6] username=luisa, password=luisa, name=Luisa, surname=Martínez López, email=luisa@luisa.name",OK
+2021-12-13 13:06:39.589,acme.testing.SignUpTest,positiveSignUp,6240,"[7] username=lukas, password=lukas, name=Lukas, surname=Smith, email=lukas@mail.com",OK
+2021-12-13 13:06:46.324,acme.testing.SignUpTest,positiveSignUp,6417,"[8] username=mary-dt, password=mary-dt, name=Mary, surname=Design-Testing, email=mary@email.com",OK
+2021-12-13 13:06:52.883,acme.testing.SignUpTest,positiveSignUp,6243,"[9] username=jorge, password=jorge, name=Jorge, surname=Libertad, email=jorge@yahoo.com",OK
+2021-12-13 13:06:59.573,acme.testing.SignUpTest,positiveSignUp,6362,"[10] username=sonia, password=sonia, name=Snojia Guðrún, surname=Þor-Anaïs, email=sonja@liberty.de",OK
+2021-12-13 13:07:06.279,acme.testing.SignUpTest,positiveSignUp,6349,"[11] username=parker, password=parker, name=Parker Sigurður, surname=Mañón-Perigüeñez, email=parker@outlook.com",OK
+2021-12-13 13:07:12.83,acme.testing.SignUpTest,positiveSignUp,6223,"[12] username=manolo, password=manolo, name=Manuel Raúl, surname=Benítez López, email=manolo@engineer.com",OK
+2021-12-13 13:07:29.407,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updatePositive,5430,"[1] recordIndex=0, umbral=50.00",OK
+2021-12-13 13:07:33.299,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updateNegative,3569,"[1] recordIndex=0, umbral=200.00",OK
+2021-12-13 13:07:37.136,acme.testing.administrator.spam.AdministratorSpamUpdateTest,updateNegative,3458,"[2] recordIndex=1, umbral=-100.00",OK
+2021-12-13 13:07:56.491,acme.testing.administrator.spam.AdministratorSpamWordUpdateTest,updatePositive,8334,"[1] recordIndex=0, word=test",OK
+2021-12-13 13:08:01.397,acme.testing.administrator.spam.AdministratorSpamWordUpdateTest,updateNegative,4575,"[1] recordIndex=0, word=null",OK
+2021-12-13 13:08:20.245,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deletePositive,7755,"[1] recordIndex=3, word=nigeria",OK
+2021-12-13 13:08:25.422,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deletePositive2,4865,"[1] recordIndex=0",OK
+2021-12-13 13:08:28.473,acme.testing.administrator.spam.AdministratorSpamWordDeleteTest,deleteNegative,2724,"[1] recordIndex=0",OK
+2021-12-13 13:08:46.648,acme.testing.administrator.spam.AdministratorSpamWordCreateTest,createPositive,7023,"[1] recordIndex=14, word=test",OK
+2021-12-13 13:08:50.862,acme.testing.administrator.spam.AdministratorSpamWordCreateTest,createNegative,3917,"[1] recordIndex=0, word=null",OK
+2021-12-13 13:09:07.925,acme.testing.administrator.spam.AdministratorSpamListTest,list,5329,"[1] recordIndex=0, umbral=10.00",OK
+2021-12-13 13:09:23.313,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4340,"[1] recordIndex=0, word=sex",OK
+2021-12-13 13:09:27.99,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4330,"[2] recordIndex=1, word=hard core",OK
+2021-12-13 13:09:32.589,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4283,"[3] recordIndex=2, word=viagra",OK
+2021-12-13 13:09:37.262,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4296,"[4] recordIndex=3, word=cialis",OK
+2021-12-13 13:09:41.792,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4213,"[5] recordIndex=4, word=nigeria",OK
+2021-12-13 13:09:46.454,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4316,"[6] recordIndex=5, word=you’ve won",OK
+2021-12-13 13:09:51.078,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4299,"[7] recordIndex=6, word=million dollar",OK
+2021-12-13 13:09:55.65,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4242,"[8] recordIndex=7, word=sexo",OK
+2021-12-13 13:10:00.281,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4317,"[9] recordIndex=8, word=núcleo duro",OK
+2021-12-13 13:10:04.878,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4270,"[10] recordIndex=9, word=viagra",OK
+2021-12-13 13:10:09.497,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4282,"[11] recordIndex=10, word=cialis",OK
+2021-12-13 13:10:14.365,acme.testing.administrator.spam.AdministratorSpamWordListAllTest,list,4512,"[12] recordIndex=11, word=Nigeria",OK

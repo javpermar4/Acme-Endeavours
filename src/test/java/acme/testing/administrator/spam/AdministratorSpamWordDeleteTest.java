@@ -47,7 +47,7 @@ public class AdministratorSpamWordDeleteTest  extends AcmeEndeavoursTest {
 	@CsvFileSource(resources = "/administrator/spam-word/delete-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(30)
 	public void deleteNegative(final int recordIndex) {
-		super.signIn("manager", "manager");
+		super.signIn("officer", "officer");
 		
 		final String s = this.getBaseUrl();
 		
