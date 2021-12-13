@@ -1,0 +1,12 @@
+timestamp,simple-path,time
+2021-12-13 11:18:47.285,/master/welcome,367
+2021-12-13 11:18:47.575,/master/welcome,241
+2021-12-13 11:18:48.29,/master/sign-in,592
+2021-12-13 11:18:49.585,/master/welcome,594
+2021-12-13 11:18:51.857,/master/welcome,285
+2021-12-13 11:18:52.563,/master/welcome,595
+2021-12-13 11:18:53.02,/master/welcome,284
+2021-12-13 11:18:53.317,/master/welcome,249
+2021-12-13 11:18:54.043,/master/sign-in,614
+2021-12-13 11:18:55.349,/master/welcome,594
+2021-12-13 11:18:56.206,/authenticated/duty/list,608

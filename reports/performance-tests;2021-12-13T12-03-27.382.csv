@@ -1,0 +1,4 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-13 12:03:46.949,acme.testing.officer.duty.OfficerDutyDeleteTest,deletePositive,8892,"[1] recordIndex=2, title=Duty 4, iniMoment=2021/03/20 12:30, endMoment=2021/04/30 12:30, exePeriod=984.00, workload=25.30, description=aaaaaaaaaaaa, visibility=PUBLIC, link=null",OK
+2021-12-13 12:04:20.141,acme.testing.officer.duty.OfficerDutyDeleteTest,deleteNegative,32885,"[1] recordIndex=0",Cannot find 'By.className: text-danger'
+2021-12-13 12:04:57.722,acme.testing.officer.duty.OfficerDutyDeleteTest,deleteNegative2,37264,"[1] recordIndex=0",OK

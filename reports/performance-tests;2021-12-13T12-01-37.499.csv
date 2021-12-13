@@ -1,0 +1,2 @@
+timestamp,test-class,test-method,time,description,result
+2021-12-13 12:01:57.404,acme.testing.officer.duty.OfficerDutyCreateTest,createPositive,9913,"[1] recordIndex=1, title=Duty testing, iniMoment=2022/01/30 10:30, endMoment=2022/04/30 12:30, exePeriod=2,161.00, workload=25.30, description=Probando testing de las duties, visibility=PUBLIC, link=null",OK

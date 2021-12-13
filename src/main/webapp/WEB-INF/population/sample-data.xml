@@ -114,7 +114,7 @@
 	
 
 	<bean id="shout05" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/08/30 12:30"/>
+		<property name="moment" value="2021/11/30 12:30"/>
 		<property name="author" value="Luis Delgado"/>
 		<property name="text" value="Creando mi primer bean"/>
 		<property name="info"><null/></property>
@@ -139,14 +139,14 @@
 	</bean>
 	
 	<bean id="shout08" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/08/30 12:30"/>
+		<property name="moment" value="2021/11/30 12:30"/>
 		<property name="author" value="Shout 8"/>
 		<property name="text" value="Poblando la BD"/>
 		<property name="info"><null/></property>
 	</bean>
 
 	<bean id="shout09" class="acme.entities.shouts.Shout">
-		<property name="moment" value="2021/08/30 12:30"/>
+		<property name="moment" value="2021/11/30 12:30"/>
 		<property name="author" value="Shout 9"/>
 		<property name="text" value="Creando mi 9 shout!"/>
 		<property name="info"><null/></property>
@@ -164,8 +164,8 @@
 
 	<bean id="duty01" class="acme.entities.duties.Duty">
 		<property name="title" value="Holaaaaa"/>
-		<property name="initialMoment" value="2021/08/30 12:30"/>
-		<property name="endMoment" value="2021/09/25 12:00"/>
+		<property name="initialMoment" value="2021/11/30 12:30"/>
+		<property name="endMoment" value="2021/12/25 12:00"/>
 		<property name="description" value="Descripcion aaaaaaaaa"></property>
 		<property name="workload" value="20.3"></property>
 		<property name="executionPeriod" value="599.50"></property>
@@ -188,8 +188,8 @@
 	
 	<bean id="duty03" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 3"/>
-		<property name="initialMoment" value="2021/08/30 12:30"/>
-		<property name="endMoment" value="2021/09/30 12:30"/>
+		<property name="initialMoment" value="2021/11/30 12:30"/>
+		<property name="endMoment" value="2021/12/30 12:30"/>
 		<property name="description" value="Esta es la tercera Duty"></property>
 		<property name="workload" value="23.0"></property>
 		<property name="executionPeriod" value="960.0"></property>
@@ -212,8 +212,8 @@
 	
 	<bean id="duty05" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 5"/>
-		<property name="initialMoment" value="2021/08/30 12:30"/>
-		<property name="endMoment" value="2021/09/30 12:30"/>
+		<property name="initialMoment" value="2021/11/30 12:30"/>
+		<property name="endMoment" value="2021/12/30 12:30"/>
 		<property name="description" value="aaaaaaaaaaaa"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="960.0"></property>
@@ -224,9 +224,9 @@
 	
 	<bean id="duty06" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 6"/>
-		<property name="initialMoment" value="2021/08/12 10:30"/>
-		<property name="endMoment" value="2021/09/21 10:30"/>
-		<property name="description" value="Creando mi 6 tarea :)"></property>
+		<property name="initialMoment" value="2021/11/12 10:30"/>
+		<property name="endMoment" value="2022/01/21 10:30"/>
+		<property name="description" value="Creando mi 6 deber :)"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="504.0"></property>
 		<property name="visibility" value="PUBLIC"></property>
@@ -237,7 +237,7 @@
 	<bean id="duty07" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 7"/>
 		<property name="initialMoment" value="2021/07/20 17:30"/>
-		<property name="endMoment" value="2021/10/15 17:30"/>
+		<property name="endMoment" value="2022/01/15 17:30"/>
 		<property name="description" value="Realización de la duty 7"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="624.0"></property>
@@ -248,8 +248,8 @@
 
 	<bean id="duty08" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 8"/>
-		<property name="initialMoment" value="2021/08/10 13:30"/>
-		<property name="endMoment" value="2021/09/25 13:30"/>
+		<property name="initialMoment" value="2021/11/10 13:30"/>
+		<property name="endMoment" value="2021/12/25 13:30"/>
 		<property name="description" value="Duty 8 realizada"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="1080.0"></property>
@@ -260,8 +260,8 @@
 
 	<bean id="duty09" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 9"/>
-		<property name="initialMoment" value="2021/08/10 15:30"/>
-		<property name="endMoment" value="2021/11/07 15:30"/>
+		<property name="initialMoment" value="2021/11/10 15:30"/>
+		<property name="endMoment" value="2022/01/07 15:30"/>
 		<property name="description" value="Popular base de datos"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="2136.0"></property>
@@ -285,7 +285,7 @@
 	<bean id="duty11" class="acme.entities.duties.Duty">
 		<property name="title" value="Duty 11"/>
 		<property name="initialMoment" value="2021/07/10 15:30"/>
-		<property name="endMoment" value="2021/10/07 15:30"/>
+		<property name="endMoment" value="2022/01/07 15:30"/>
 		<property name="description" value="Esta es la duty 11"></property>
 		<property name="workload" value="25.3"></property>
 		<property name="executionPeriod" value="2136.0"></property>

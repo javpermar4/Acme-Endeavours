@@ -74,7 +74,7 @@ public class OfficerDutyCreateTest extends AcmeEndeavoursTest {
 
 		super.signOut();
 	}
-	
+
 	@ParameterizedTest
 	@CsvFileSource(resources = "/officer/duty/create-negative.csv", encoding = "utf-8", numLinesToSkip = 1)
 	@Order(20)

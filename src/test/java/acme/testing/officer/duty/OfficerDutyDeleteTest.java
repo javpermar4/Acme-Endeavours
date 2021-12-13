@@ -65,7 +65,7 @@ public class OfficerDutyDeleteTest extends AcmeEndeavoursTest {
 		super.signIn("officer", "officer");
 
 		final String s = this.getBaseUrl();
-		this.driver.get(s + "/management/duty/delete?id=42");
+		this.driver.get(s + "/officer/duty/delete?id=42");
 		super.checkErrorsExist();
 		super.signOut();
 
